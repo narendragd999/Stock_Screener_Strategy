@@ -1,0 +1,8 @@
+Symbol,Type,Close Price,52 Week Low,20 SMA,50 SMA,200 SMA,Company Type,QOQ Net Profit (Adjusted),QOQ Actual Income (Adjusted),QOQ Net Profit (Raw),QOQ Actual Income (Raw),QOQ Net Profit Ascending (Adjusted),QOQ Actual Income Ascending (Adjusted),QOQ Net Profit Ascending (Raw),QOQ Actual Income Ascending (Raw),Same Quarter Net Profit (Adjusted),Same Quarter Net Profit (Raw),YOY Net Profit (Adjusted),YOY Actual Income (Adjusted),YOY Net Profit (Raw),YOY Actual Income (Raw),YOY Net Profit Ascending (Adjusted),YOY Actual Income Ascending (Adjusted),YOY Net Profit Ascending (Raw),YOY Actual Income Ascending (Raw),Error
+HDFCBANK.NS,v40,1957.4,1570.77,1986.26,1944.57,1788.66,Finance,PASS,PASS,PASS,PASS,FAIL,FAIL,FAIL,FAIL,PASS,PASS,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,None
+NAM-INDIA.NS,v40,841.45,491.85,802.28,759.32,664.73,Non-Finance,FAIL,FAIL,FAIL,FAIL,FAIL,FAIL,FAIL,FAIL,PASS,FAIL,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,None
+NESTLEIND.NS,v40,2472.2,2101.17,2411.82,2395.62,2292.89,Non-Finance,PASS,PASS,FAIL,FAIL,FAIL,FAIL,FAIL,FAIL,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,None
+PAGEIND.NS,v40,46740.0,38685.95,48084.0,47099.02,44917.0,Non-Finance,FAIL,FAIL,FAIL,FAIL,FAIL,FAIL,FAIL,FAIL,PASS,PASS,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,None
+PFIZER.NS,v40,5319.5,3701.0,5601.4,5442.95,4931.72,Non-Finance,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,PASS,PASS,FAIL,FAIL,PASS,PASS,FAIL,FAIL,None
+RELIANCE.NS,v40,1476.0,1114.85,1499.81,1459.11,1325.22,Non-Finance,FAIL,FAIL,PASS,PASS,FAIL,FAIL,FAIL,FAIL,PASS,PASS,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,None
+TITAN.NS,v40,3402.9,2916.22,3539.13,3533.69,3356.0,Non-Finance,FAIL,FAIL,FAIL,FAIL,FAIL,FAIL,FAIL,FAIL,PASS,PASS,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,None
