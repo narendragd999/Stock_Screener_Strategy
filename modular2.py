@@ -390,11 +390,12 @@ class FinancialAnalyzer:
        adjusted_actual_income = actual_income - other_income if actual_income is not None else adjusted_net_profit
        return adjusted_net_profit, adjusted_actual_income
 
+   
    @staticmethod
    def is_ascending(series):
-       if series is None or series.empty:
-           return False
-       return all(series[i] <= series[i + 1] for i in range(len(series) - 1))
+        if series is None or series.empty:
+            return False
+        return all(series.iloc[i] <= series.iloc[i + 1] for i in range(len(series) - 1))
 
    @staticmethod
    def extract_quarter_year(column):

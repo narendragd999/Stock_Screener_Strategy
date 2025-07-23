@@ -5420,3 +5420,116 @@ tornado.websocket.WebSocketClosedError
 2025-07-23 12:35:43,082 - INFO - Fetched data for PETRONET.NS: Current price \u20b9305.15, V20 range None, 52W Low \u20b9266.91, 52W High \u20b9372.69
 2025-07-23 12:35:43,314 - INFO - Fetched data for GABRIEL.NS: Current price \u20b91001.40, V20 range (np.float64(919.0499877929688), np.float64(1120.0)), 52W Low \u20b9387.00, 52W High \u20b91122.00
 2025-07-23 12:35:44,938 - INFO - Fetched data for NEWGEN.NS: Current price \u20b9888.00, V20 range (np.float64(1134.4423243446372), np.float64(1370.4361145592877)), 52W Low \u20b9754.50, 52W High \u20b91790.13
+2025-07-23 12:35:46,908 - INFO - Fetched data for CGPOWER.NS: Current price \u20b9682.85, V20 range (np.float64(516.7217530215826), np.float64(628.7488227018202)), 52W Low \u20b9516.72, 52W High \u20b9872.96
+2025-07-23 12:35:47,652 - INFO - Fetched data for PIIND.NS: Current price \u20b94041.00, V20 range (np.float64(3051.0), np.float64(3699.0)), 52W Low \u20b92951.10, 52W High \u20b94795.12
+2025-07-23 12:35:48,361 - INFO - Fetched data for NEWGEN.NS: Current price \u20b9888.00, V20 range (np.float64(1134.4423243446372), np.float64(1370.4361145592877)), 52W Low \u20b9754.50, 52W High \u20b91790.13
+2025-07-23 12:35:48,585 - INFO - Fetched data for GANESHHOUC.NS: Current price \u20b9896.00, V20 range (np.float64(1151.0999755859375), np.float64(1428.9000244140625)), 52W Low \u20b9775.55, 52W High \u20b91485.00
+2025-07-23 12:35:51,655 - INFO - Fetched data for RAILTEL.NS: Current price \u20b9401.40, V20 range (np.float64(323.45001220703125), np.float64(402.3999938964844)), 52W Low \u20b9264.62, 52W High \u20b9544.20
+2025-07-23 12:35:53,524 - INFO - Fetched data for NIITMTS.NS: Current price \u20b9332.05, V20 range None, 52W Low \u20b9322.60, 52W High \u20b9541.50
+2025-07-23 12:35:53,844 - INFO - Fetched data for CIGNITITEC.NS: Current price \u20b91742.20, V20 range (np.float64(1402.5), np.float64(1690.300048828125)), 52W Low \u20b91033.25, 52W High \u20b91970.00
+2025-07-23 12:35:54,271 - INFO - Fetched data for GANESHHOUC.NS: Current price \u20b9896.00, V20 range (np.float64(1151.0999755859375), np.float64(1428.9000244140625)), 52W Low \u20b9775.55, 52W High \u20b91485.00
+2025-07-23 12:35:54,972 - INFO - Fetched data for RITES.NS: Current price \u20b9273.00, V20 range (np.float64(247.3000030517578), np.float64(303.3999938964844)), 52W Low \u20b9192.40, 52W High \u20b9378.70
+2025-07-23 12:35:55,910 - INFO - Fetched data for CLEAN.NS: Current price \u20b91303.70, V20 range (np.float64(1330.0), np.float64(1600.0)), 52W Low \u20b91106.45, 52W High \u20b91684.34
+2025-07-23 12:35:57,322 - INFO - Fetched data for PETRONET.NS: Current price \u20b9305.15, V20 range None, 52W Low \u20b9266.91, 52W High \u20b9372.69
+2025-07-23 12:35:58,117 - INFO - Fetched data for SHARDAMOTR.NS: Current price \u20b91162.10, V20 range (np.float64(1025.800048828125), np.float64(1248.0)), 52W Low \u20b9604.14, 52W High \u20b92756.65
+2025-07-23 12:35:58,167 - INFO - Fetched data for GARFIBRES.NS: Current price \u20b9936.05, V20 range (np.float64(674.2000122070312), np.float64(896.1500244140625)), 52W Low \u20b9674.20, 52W High \u20b9986.39
+2025-07-23 12:35:58,869 - INFO - Fetched data for COCHINSHIP.NS: Current price \u20b91855.50, V20 range (np.float64(1926.800048828125), np.float64(2380.0)), 52W Low \u20b91180.20, 52W High \u20b92755.31
+2025-07-23 12:36:00,549 - INFO - Fetched data for PIIND.NS: Current price \u20b94041.50, V20 range (np.float64(3051.0), np.float64(3699.0)), 52W Low \u20b92951.10, 52W High \u20b94795.12
+2025-07-23 12:36:00,713 - INFO - Fetched data for GODFRYPHLP.NS: Current price \u20b99370.00, V20 range (np.float64(7827.0), np.float64(9461.0)), 52W Low \u20b93902.67, 52W High \u20b99828.00
+2025-07-23 12:36:02,016 - INFO - Fetched data for SOLARINDS.NS: Current price \u20b914823.00, V20 range (np.float64(13258.064649510949), np.float64(16290.249766572173)), 52W Low \u20b98477.43, 52W High \u20b917809.34
+2025-07-23 12:36:03,879 - INFO - Fetched data for GPIL.NS: Current price \u20b9192.80, V20 range (np.float64(170.10000610351562), np.float64(206.3000030517578)), 52W Low \u20b9145.75, 52W High \u20b9253.40
+2025-07-23 12:36:04,167 - INFO - Fetched data for RAILTEL.NS: Current price \u20b9401.00, V20 range (np.float64(323.45001220703125), np.float64(402.3999938964844)), 52W Low \u20b9264.62, 52W High \u20b9544.20
+2025-07-23 12:36:04,528 - INFO - Fetched data for CRISIL.NS: Current price \u20b95810.50, V20 range (np.float64(5479.452928074046), np.float64(6596.574638464325)), 52W Low \u20b93942.27, 52W High \u20b96895.20
+2025-07-23 12:36:07,304 - INFO - Fetched data for GPIL.NS: Current price \u20b9192.80, V20 range (np.float64(170.10000610351562), np.float64(206.3000030517578)), 52W Low \u20b9145.75, 52W High \u20b9253.40
+2025-07-23 12:36:08,101 - INFO - Fetched data for RITES.NS: Current price \u20b9273.00, V20 range (np.float64(247.3000030517578), np.float64(303.3999938964844)), 52W Low \u20b9192.40, 52W High \u20b9378.70
+2025-07-23 12:36:08,716 - INFO - Fetched data for SPLPETRO.NS: Current price \u20b9819.85, V20 range (np.float64(533.131086273363), np.float64(644.1773240323364)), 52W Low \u20b9513.41, 52W High \u20b9899.87
+2025-07-23 12:36:08,949 - INFO - Fetched data for DHANUKA.NS: Current price \u20b91712.40, V20 range (np.float64(1328.5050921188079), np.float64(1637.5572388253354)), 52W Low \u20b91090.82, 52W High \u20b91923.64
+2025-07-23 12:36:09,818 - INFO - Fetched data for SHARDAMOTR.NS: Current price \u20b91162.10, V20 range (np.float64(1025.800048828125), np.float64(1248.0)), 52W Low \u20b9604.14, 52W High \u20b92756.65
+2025-07-23 12:36:09,858 - INFO - Fetched data for GRAVITA.NS: Current price \u20b91730.20, V20 range (np.float64(1632.5917904152286), np.float64(2018.2524344609058)), 52W Low \u20b91375.05, 52W High \u20b92691.00
+2025-07-23 12:36:12,655 - INFO - Fetched data for DODLA.NS: Current price \u20b91338.10, V20 range (np.float64(983.599947192603), np.float64(1197.944790591764)), 52W Low \u20b9964.13, 52W High \u20b91525.00
+2025-07-23 12:36:13,029 - INFO - Fetched data for GRAVITA.NS: Current price \u20b91730.20, V20 range (np.float64(1632.5917904152286), np.float64(2018.2524344609058)), 52W Low \u20b91375.05, 52W High \u20b92691.00
+2025-07-23 12:36:13,761 - INFO - Fetched data for SUMICHEM.NS: Current price \u20b9588.80, V20 range (np.float64(523.0999755859375), np.float64(628.2999877929688)), 52W Low \u20b9446.20, 52W High \u20b9628.30
+2025-07-23 12:36:15,000 - INFO - Fetched data for SOLARINDS.NS: Current price \u20b914823.00, V20 range (np.float64(13258.064649510949), np.float64(16290.249766572173)), 52W Low \u20b98477.43, 52W High \u20b917809.34
+2025-07-23 12:36:16,446 - INFO - Fetched data for DOLATALGO.NS: Current price \u20b995.71, V20 range (np.float64(75.91000366210938), np.float64(91.8499984741211)), 52W Low \u20b968.00, 52W High \u20b9186.12
+2025-07-23 12:36:16,827 - INFO - Fetched data for GRINDWELL.NS: Current price \u20b91755.60, V20 range (np.float64(1503.9415585654522), np.float64(1841.5336731542889)), 52W Low \u20b91342.70, 52W High \u20b92759.85
+2025-07-23 12:36:17,377 - INFO - Fetched data for SYMPHONY.NS: Current price \u20b91137.80, V20 range (np.float64(1410.4353519219849), np.float64(1730.815645913178)), 52W Low \u20b9943.34, 52W High \u20b91862.76
+2025-07-23 12:36:18,855 - INFO - Fetched data for GRINDWELL.NS: Current price \u20b91755.60, V20 range (np.float64(1503.9415585654522), np.float64(1841.5336731542889)), 52W Low \u20b91342.70, 52W High \u20b92759.85
+2025-07-23 12:36:20,455 - INFO - Fetched data for DOLATALGO.NS: Current price \u20b995.71, V20 range (np.float64(75.91000366210938), np.float64(91.8499984741211)), 52W Low \u20b968.00, 52W High \u20b9186.12
+2025-07-23 12:36:20,977 - INFO - Fetched data for SPLPETRO.NS: Current price \u20b9819.85, V20 range (np.float64(533.131086273363), np.float64(644.1773240323364)), 52W Low \u20b9513.41, 52W High \u20b9899.87
+2025-07-23 12:36:21,809 - INFO - Fetched data for SYMPHONY.NS: Current price \u20b91137.80, V20 range (np.float64(1410.4353519219849), np.float64(1730.815645913178)), 52W Low \u20b9943.34, 52W High \u20b91862.76
+2025-07-23 12:36:22,221 - INFO - Fetched data for GRSE.NS: Current price \u20b92639.00, V20 range (np.float64(2873.0), np.float64(3532.199951171875)), 52W Low \u20b91184.90, 52W High \u20b93538.40
+2025-07-23 12:36:23,276 - INFO - Fetched data for DOMS.NS: Current price \u20b92373.30, V20 range (np.float64(2516.5), np.float64(3064.60009765625)), 52W Low \u20b92092.30, 52W High \u20b93115.00
+2025-07-23 12:36:25,529 - INFO - Fetched data for SUMICHEM.NS: Current price \u20b9588.35, V20 range (np.float64(523.0999755859375), np.float64(628.2999877929688)), 52W Low \u20b9446.20, 52W High \u20b9628.30
+2025-07-23 12:36:25,674 - INFO - Fetched data for TBOTEK.NS: Current price \u20b91437.80, V20 range (np.float64(1138.050048828125), np.float64(1378.1500244140625)), 52W Low \u20b9996.00, 52W High \u20b92001.00
+2025-07-23 12:36:26,161 - INFO - Fetched data for INGERRAND.NS: Current price \u20b94070.00, V20 range (np.float64(3096.911730543453), np.float64(3720.885478762831)), 52W Low \u20b93036.14, 52W High \u20b94617.32
+2025-07-23 12:36:26,505 - INFO - Fetched data for DOMS.NS: Current price \u20b92373.30, V20 range (np.float64(2516.5), np.float64(3064.60009765625)), 52W Low \u20b92092.30, 52W High \u20b93115.00
+2025-07-23 12:36:29,196 - INFO - Fetched data for INOXINDIA.NS: Current price \u20b91217.50, V20 range (np.float64(953.940675904824), np.float64(1172.084006417855)), 52W Low \u20b9882.76, 52W High \u20b91329.83
+2025-07-23 12:36:29,236 - INFO - Fetched data for SYMPHONY.NS: Current price \u20b91137.90, V20 range (np.float64(1410.4353519219849), np.float64(1730.815645913178)), 52W Low \u20b9943.34, 52W High \u20b91862.76
+2025-07-23 12:36:29,938 - INFO - Fetched data for ECLERX.NS: Current price \u20b93697.50, V20 range (np.float64(2681.60009765625), np.float64(3324.0)), 52W Low \u20b92168.00, 52W High \u20b93877.00
+2025-07-23 12:36:32,380 - INFO - Fetched data for SYMPHONY.NS: Current price \u20b91137.90, V20 range (np.float64(1410.4353519219849), np.float64(1730.815645913178)), 52W Low \u20b9943.34, 52W High \u20b91862.76
+2025-07-23 12:36:33,573 - INFO - Fetched data for JBCHEPHARM.NS: Current price \u20b91701.80, V20 range None, 52W Low \u20b91385.75, 52W High \u20b92019.95
+2025-07-23 12:36:34,392 - INFO - Fetched data for ELECON.NS: Current price \u20b9595.00, V20 range (np.float64(541.3343971992304), np.float64(676.1816285770846)), 52W Low \u20b9376.11, 52W High \u20b9736.76
+2025-07-23 12:36:35,261 - INFO - Fetched data for TIINDIA.NS: Current price \u20b92967.60, V20 range None, 52W Low \u20b92407.10, 52W High \u20b94807.56
+2025-07-23 12:36:36,167 - INFO - Fetched data for JWL.NS: Current price \u20b9363.55, V20 range (np.float64(351.28177377565385), np.float64(427.5432992711129)), 52W Low \u20b9269.38, 52W High \u20b9646.58
+2025-07-23 12:36:37,102 - INFO - Fetched data for TBOTEK.NS: Current price \u20b91437.80, V20 range (np.float64(1138.050048828125), np.float64(1378.1500244140625)), 52W Low \u20b9996.00, 52W High \u20b92001.00
+2025-07-23 12:36:37,291 - INFO - Fetched data for EMCURE.NS: Current price \u20b91415.00, V20 range (np.float64(1062.199951171875), np.float64(1412.800048828125)), 52W Low \u20b9889.00, 52W High \u20b91580.00
+2025-07-23 12:36:37,940 - INFO - Fetched data for JWL.NS: Current price \u20b9363.55, V20 range (np.float64(351.28177377565385), np.float64(427.5432992711129)), 52W Low \u20b9269.38, 52W High \u20b9646.58
+2025-07-23 12:36:40,314 - INFO - Fetched data for TRITURBINE.NS: Current price \u20b9633.90, V20 range (np.float64(512.2000122070312), np.float64(639.0)), 52W Low \u20b9460.30, 52W High \u20b9881.94
+2025-07-23 12:36:42,452 - INFO - Fetched data for JYOTHYLAB.NS: Current price \u20b9338.50, V20 range (np.float64(300.1000061035156), np.float64(389.3500061035156)), 52W Low \u20b9300.10, 52W High \u20b9595.85
+2025-07-23 12:36:42,712 - INFO - Fetched data for FIEMIND.NS: Current price \u20b92017.20, V20 range (np.float64(1580.0), np.float64(1906.0)), 52W Low \u20b91232.46, 52W High \u20b92055.00
+2025-07-23 12:36:43,395 - INFO - Fetched data for TIINDIA.NS: Current price \u20b92968.70, V20 range None, 52W Low \u20b92407.10, 52W High \u20b94807.56
+2025-07-23 12:36:45,615 - INFO - Fetched data for VESUVIUS.NS: Current price \u20b9550.35, V20 range (np.float64(463.29998779296875), np.float64(560.0)), 52W Low \u20b9355.03, 52W High \u20b9646.00
+2025-07-23 12:36:46,944 - INFO - Fetched data for FINEORG.NS: Current price \u20b95344.90, V20 range (np.float64(3862.10009765625), np.float64(4646.0)), 52W Low \u20b93407.00, 52W High \u20b95947.88
+2025-07-23 12:36:48,802 - INFO - Fetched data for KEI.NS: Current price \u20b93983.60, V20 range (np.float64(3724.7439564343495), np.float64(4517.7477077792455)), 52W Low \u20b92424.00, 52W High \u20b94775.41
+2025-07-23 12:36:49,482 - INFO - Fetched data for TRITURBINE.NS: Current price \u20b9633.70, V20 range (np.float64(512.2000122070312), np.float64(639.0)), 52W Low \u20b9460.30, 52W High \u20b9881.94
+2025-07-23 12:36:50,115 - INFO - Fetched data for VOLTAMP.NS: Current price \u20b99337.00, V20 range (np.float64(6956.3332676593545), np.float64(8450.510436926157)), 52W Low \u20b95987.59, 52W High \u20b914644.91
+2025-07-23 12:36:50,300 - INFO - Fetched data for FORCEMOT.NS: Current price \u20b917339.00, V20 range (np.float64(14177.0), np.float64(17039.0)), 52W Low \u20b96125.00, 52W High \u20b917660.00
+2025-07-23 12:36:51,293 - INFO - Fetched data for GABRIEL.NS: Current price \u20b9999.05, V20 range (np.float64(919.0499877929688), np.float64(1120.0)), 52W Low \u20b9387.00, 52W High \u20b91122.00
+2025-07-23 12:36:52,711 - INFO - Fetched data for VESUVIUS.NS: Current price \u20b9550.35, V20 range (np.float64(463.29998779296875), np.float64(560.0)), 52W Low \u20b9355.03, 52W High \u20b9646.00
+2025-07-23 12:36:55,099 - INFO - Fetched data for KFINTECH.NS: Current price \u20b91256.30, V20 range (np.float64(1066.5), np.float64(1295.0)), 52W Low \u20b9695.04, 52W High \u20b91641.35
+2025-07-23 12:36:55,496 - INFO - Fetched data for ZENSARTECH.NS: Current price \u20b9795.80, V20 range (np.float64(775.8848333572164), np.float64(972.1508806207765)), 52W Low \u20b9528.89, 52W High \u20b9972.15
+2025-07-23 12:36:56,841 - INFO - Fetched data for GANESHHOUC.NS: Current price \u20b9895.95, V20 range (np.float64(1151.0999755859375), np.float64(1428.9000244140625)), 52W Low \u20b9775.55, 52W High \u20b91485.00
+2025-07-23 12:36:58,069 - INFO - Fetched data for VOLTAMP.NS: Current price \u20b99337.00, V20 range (np.float64(6956.3332676593545), np.float64(8450.510436926157)), 52W Low \u20b95987.59, 52W High \u20b914644.91
+2025-07-23 12:36:58,366 - INFO - Fetched data for KIRLOSBROS.NS: Current price \u20b92072.00, V20 range (np.float64(1846.0), np.float64(2228.0)), 52W Low \u20b91422.35, 52W High \u20b92486.20
+2025-07-23 12:37:01,286 - INFO - Fetched data for ABBOTINDIA.NS: Current price \u20b934080.00, V20 range None, 52W Low \u20b925325.00, 52W High \u20b937000.00
+2025-07-23 12:37:03,233 - INFO - Fetched data for GANESHHOUC.NS: Current price \u20b9895.95, V20 range (np.float64(1151.0999755859375), np.float64(1428.9000244140625)), 52W Low \u20b9775.55, 52W High \u20b91485.00
+2025-07-23 12:37:04,700 - INFO - Fetched data for KIRLPNU.NS: Current price \u20b91304.00, V20 range (np.float64(1178.5668778746738), np.float64(1421.8642582201142)), 52W Low \u20b9948.51, 52W High \u20b91802.77
+2025-07-23 12:37:05,247 - INFO - Fetched data for ZENSARTECH.NS: Current price \u20b9795.60, V20 range (np.float64(775.8848333572164), np.float64(972.1508806207765)), 52W Low \u20b9528.89, 52W High \u20b9972.15
+2025-07-23 12:37:08,082 - INFO - Fetched data for ASIANPAINT.NS: Current price \u20b92356.90, V20 range None, 52W Low \u20b92105.33, 52W High \u20b93358.11
+2025-07-23 12:37:09,846 - INFO - Fetched data for GARFIBRES.NS: Current price \u20b9935.35, V20 range (np.float64(674.2000122070312), np.float64(896.1500244140625)), 52W Low \u20b9674.20, 52W High \u20b9986.39
+2025-07-23 12:37:10,270 - INFO - Fetched data for KPITTECH.NS: Current price \u20b91278.20, V20 range (np.float64(1221.0866465525305), np.float64(1476.384380553733)), 52W Low \u20b91020.60, 52W High \u20b91917.60
+2025-07-23 12:37:11,375 - INFO - Fetched data for ABBOTINDIA.NS: Current price \u20b934080.00, V20 range None, 52W Low \u20b925325.00, 52W High \u20b937000.00
+2025-07-23 12:37:13,161 - INFO - Fetched data for GODFRYPHLP.NS: Current price \u20b99370.00, V20 range (np.float64(7827.0), np.float64(9461.0)), 52W Low \u20b93902.67, 52W High \u20b99828.00
+2025-07-23 12:37:15,362 - INFO - Fetched data for KPITTECH.NS: Current price \u20b91278.50, V20 range (np.float64(1221.0866465525305), np.float64(1476.384380553733)), 52W Low \u20b91020.60, 52W High \u20b91917.60
+2025-07-23 12:37:16,594 - INFO - Fetched data for GPIL.NS: Current price \u20b9192.80, V20 range (np.float64(170.10000610351562), np.float64(206.3000030517578)), 52W Low \u20b9145.75, 52W High \u20b9253.40
+2025-07-23 12:37:16,974 - INFO - Fetched data for AXISBANK.NS: Current price \u20b91107.90, V20 range None, 52W Low \u20b9932.70, 52W High \u20b91290.00
+2025-07-23 12:37:17,361 - INFO - Fetched data for ASIANPAINT.NS: Current price \u20b92357.70, V20 range None, 52W Low \u20b92105.33, 52W High \u20b93358.11
+2025-07-23 12:37:19,013 - INFO - Fetched data for GPIL.NS: Current price \u20b9192.80, V20 range (np.float64(170.10000610351562), np.float64(206.3000030517578)), 52W Low \u20b9145.75, 52W High \u20b9253.40
+2025-07-23 12:37:23,004 - INFO - Fetched data for KSB.NS: Current price \u20b9879.10, V20 range (np.float64(615.1232179410675), np.float64(744.2145656769668)), 52W Low \u20b9579.07, 52W High \u20b91019.50
+2025-07-23 12:37:23,376 - INFO - Fetched data for GRAVITA.NS: Current price \u20b91730.30, V20 range (np.float64(1632.5917904152286), np.float64(2018.2524344609058)), 52W Low \u20b91375.05, 52W High \u20b92691.00
+2025-07-23 12:37:25,955 - INFO - Fetched data for AXISBANK.NS: Current price \u20b91107.90, V20 range None, 52W Low \u20b9932.70, 52W High \u20b91290.00
+2025-07-23 12:37:26,360 - INFO - Fetched data for GRAVITA.NS: Current price \u20b91730.30, V20 range (np.float64(1632.5917904152286), np.float64(2018.2524344609058)), 52W Low \u20b91375.05, 52W High \u20b92691.00
+2025-07-23 12:37:27,542 - INFO - Fetched data for BAJAJFINSV.NS: Current price \u20b92058.80, V20 range None, 52W Low \u20b91522.51, 52W High \u20b92133.96
+2025-07-23 12:37:30,850 - INFO - Fetched data for KSCL.NS: Current price \u20b91125.00, V20 range (np.float64(1318.449951171875), np.float64(1591.9000244140625)), 52W Low \u20b9799.34, 52W High \u20b91602.00
+2025-07-23 12:37:31,107 - INFO - Fetched data for GRINDWELL.NS: Current price \u20b91755.10, V20 range (np.float64(1503.9415585654522), np.float64(1841.5336731542889)), 52W Low \u20b91342.70, 52W High \u20b92759.85
+2025-07-23 12:37:34,511 - INFO - Fetched data for BAJAJHLDNG.NS: Current price \u20b913956.00, V20 range (np.float64(11784.162354409318), np.float64(14370.929985507764)), 52W Low \u20b99006.20, 52W High \u20b914710.24
+2025-07-23 12:37:35,774 - INFO - Fetched data for GRINDWELL.NS: Current price \u20b91755.10, V20 range (np.float64(1503.9415585654522), np.float64(1841.5336731542889)), 52W Low \u20b91342.70, 52W High \u20b92759.85
+2025-07-23 12:37:37,751 - INFO - Fetched data for LTTS.NS: Current price \u20b94309.00, V20 range None, 52W Low \u20b93931.16, 52W High \u20b95928.15
+2025-07-23 12:37:38,035 - INFO - Fetched data for BAJAJFINSV.NS: Current price \u20b92058.80, V20 range None, 52W Low \u20b91522.51, 52W High \u20b92133.96
+2025-07-23 12:37:39,027 - INFO - Fetched data for BAJAJHLDNG.NS: Current price \u20b913956.00, V20 range (np.float64(11784.162354409318), np.float64(14370.929985507764)), 52W Low \u20b99006.20, 52W High \u20b914710.24
+2025-07-23 12:37:40,777 - INFO - Fetched data for GRSE.NS: Current price \u20b92648.00, V20 range (np.float64(2873.0), np.float64(3532.199951171875)), 52W Low \u20b91184.90, 52W High \u20b93538.40
+2025-07-23 12:37:44,057 - INFO - Fetched data for BAJAJHLDNG.NS: Current price \u20b913956.00, V20 range (np.float64(11784.162354409318), np.float64(14370.929985507764)), 52W Low \u20b99006.20, 52W High \u20b914710.24
+2025-07-23 12:37:44,713 - INFO - Fetched data for MANINFRA.NS: Current price \u20b9179.97, V20 range (np.float64(195.65142266293964), np.float64(235.66109671407068)), 52W Low \u20b9134.73, 52W High \u20b9261.43
+2025-07-23 12:37:47,657 - INFO - Fetched data for INGERRAND.NS: Current price \u20b94070.00, V20 range (np.float64(3096.911730543453), np.float64(3720.885478762831)), 52W Low \u20b93036.14, 52W High \u20b94617.32
+2025-07-23 12:37:49,277 - INFO - Fetched data for BAJAJHLDNG.NS: Current price \u20b913956.00, V20 range (np.float64(11784.162354409318), np.float64(14370.929985507764)), 52W Low \u20b99006.20, 52W High \u20b914710.24
+2025-07-23 12:37:50,049 - INFO - Fetched data for BAJFINANCE.NS: Current price \u20b9968.50, V20 range None, 52W Low \u20b9639.43, 52W High \u20b9978.80
+2025-07-23 12:37:50,261 - INFO - Fetched data for MARKSANS.NS: Current price \u20b9237.20, V20 range (np.float64(171.0), np.float64(210.6999969482422)), 52W Low \u20b9171.00, 52W High \u20b9358.70
+2025-07-23 12:37:51,033 - INFO - Fetched data for INOXINDIA.NS: Current price \u20b91218.80, V20 range (np.float64(953.940675904824), np.float64(1172.084006417855)), 52W Low \u20b9882.76, 52W High \u20b91329.83
+2025-07-23 12:37:52,479 - INFO - Fetched data for MSTCLTD.NS: Current price \u20b9514.90, V20 range (np.float64(440.2345275878906), np.float64(544.0231727201735)), 52W Low \u20b9407.52, 52W High \u20b9960.24
+2025-07-23 12:37:55,784 - INFO - Fetched data for BATAINDIA.NS: Current price \u20b91204.50, V20 range None, 52W Low \u20b91140.30, 52W High \u20b91616.27
+2025-07-23 12:37:56,745 - INFO - Fetched data for JBCHEPHARM.NS: Current price \u20b91700.70, V20 range None, 52W Low \u20b91385.75, 52W High \u20b92019.95
+2025-07-23 12:37:57,275 - INFO - Fetched data for MSTCLTD.NS: Current price \u20b9514.90, V20 range (np.float64(440.2345275878906), np.float64(544.0231727201735)), 52W Low \u20b9407.52, 52W High \u20b9960.24
+2025-07-23 12:37:57,847 - INFO - Fetched data for BAJFINANCE.NS: Current price \u20b9969.05, V20 range None, 52W Low \u20b9639.43, 52W High \u20b9978.80
+2025-07-23 12:38:00,559 - INFO - Fetched data for JWL.NS: Current price \u20b9363.70, V20 range (np.float64(351.28177377565385), np.float64(427.5432992711129)), 52W Low \u20b9269.38, 52W High \u20b9646.58
+2025-07-23 12:38:00,895 - INFO - Fetched data for NEWGEN.NS: Current price \u20b9886.90, V20 range (np.float64(1134.4423243446372), np.float64(1370.4361145592877)), 52W Low \u20b9754.50, 52W High \u20b91790.13
+2025-07-23 12:38:02,336 - INFO - Fetched data for BATAINDIA.NS: Current price \u20b91204.40, V20 range None, 52W Low \u20b91140.30, 52W High \u20b91616.27
