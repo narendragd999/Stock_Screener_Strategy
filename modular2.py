@@ -508,7 +508,8 @@ class StockScreener:
            try:
                if not symbol.endswith('.NS'):
                    symbol = symbol + '.NS'
-               stock_data = yf.download(symbol, start=start_date, end=end_date, progress=False)
+               #stock_data = yf.download(symbol, start=start_date, end=end_date, progress=False)
+               stock_data = yf.download(symbol, start=start_date, end=end_date, progress=False, auto_adjust=False)
                if stock_data.empty:
                    st.warning(f"No stock data found for {symbol}. Skipping...")
                    processed_stocks += 1

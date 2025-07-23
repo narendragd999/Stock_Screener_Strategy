@@ -5533,3 +5533,61 @@ tornado.websocket.WebSocketClosedError
 2025-07-23 12:38:00,559 - INFO - Fetched data for JWL.NS: Current price \u20b9363.70, V20 range (np.float64(351.28177377565385), np.float64(427.5432992711129)), 52W Low \u20b9269.38, 52W High \u20b9646.58
 2025-07-23 12:38:00,895 - INFO - Fetched data for NEWGEN.NS: Current price \u20b9886.90, V20 range (np.float64(1134.4423243446372), np.float64(1370.4361145592877)), 52W Low \u20b9754.50, 52W High \u20b91790.13
 2025-07-23 12:38:02,336 - INFO - Fetched data for BATAINDIA.NS: Current price \u20b91204.40, V20 range None, 52W Low \u20b91140.30, 52W High \u20b91616.27
+2025-07-23 12:38:43,471 - INFO - Attempting to initialize Telegram bot with chat_id: 542581131
+2025-07-23 12:40:03,662 - INFO - Attempting to initialize Telegram bot with chat_id: 542581131
+2025-07-23 12:40:13,356 - INFO - Attempting to initialize Telegram bot with chat_id: 542581131
+2025-07-23 12:40:16,034 - INFO - Attempting to initialize Telegram bot with chat_id: 542581131
+2025-07-23 12:40:19,594 - INFO - Stock ABBOTINDIA.NS with strategy 52WLowHigh already exists in alerts. Skipping auto-add.
+2025-07-23 12:40:20,871 - INFO - Stock ASIANPAINT.NS with strategy 52WLowHigh already exists in alerts. Skipping auto-add.
+2025-07-23 12:40:22,496 - INFO - Stock AXISBANK.NS with strategy 52WLowHigh already exists in alerts. Skipping auto-add.
+2025-07-23 12:40:23,504 - ERROR - HTTP Error 404: 
+2025-07-23 12:40:23,715 - ERROR - 
+1 Failed download:
+2025-07-23 12:40:23,715 - ERROR - ['BAJAJ_AUTO.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2025-07-23 12:40:26,046 - INFO - Stock BAJAJFINSV.NS with strategy 52WLowHigh already exists in alerts. Skipping auto-add.
+2025-07-23 12:40:27,337 - INFO - Stock BAJAJHLDNG.NS with strategy V20 already exists in alerts. Skipping auto-add.
+2025-07-23 12:40:27,337 - INFO - Stock BAJAJHLDNG.NS with strategy 52WLowHigh already exists in alerts. Skipping auto-add.
+2025-07-23 12:40:30,439 - INFO - Stock BAJFINANCE.NS with strategy 52WLowHigh already exists in alerts. Skipping auto-add.
+2025-07-23 12:40:31,576 - INFO - Stock BATAINDIA.NS with strategy 52WLowHigh already exists in alerts. Skipping auto-add.
+2025-07-23 12:40:33,300 - INFO - Stock BERGEPAINT.NS with strategy 52WLowHigh already exists in alerts. Skipping auto-add.
+2025-07-23 12:40:33,910 - INFO - Stock COLPAL.NS with strategy SMA already exists in alerts. Skipping auto-add.
+2025-07-23 12:40:34,864 - INFO - Stock COLPAL.NS with strategy 52WLowHigh already exists in alerts. Skipping auto-add.
+2025-07-23 12:40:36,241 - INFO - Stock DABUR.NS with strategy 52WLowHigh already exists in alerts. Skipping auto-add.
+2025-07-23 12:40:38,017 - INFO - Stock GILLETTE.NS with strategy V20 already exists in alerts. Skipping auto-add.
+2025-07-23 12:40:38,018 - INFO - Stock GILLETTE.NS with strategy 52WLowHigh already exists in alerts. Skipping auto-add.
+2025-07-23 12:40:40,213 - INFO - Stock GLAXO.NS with strategy V20 already exists in alerts. Skipping auto-add.
+2025-07-23 12:40:40,214 - INFO - Stock GLAXO.NS with strategy 52WLowHigh already exists in alerts. Skipping auto-add.
+2025-07-23 12:40:40,642 - INFO - Stock HAVELLS.NS with strategy SMA already exists in alerts. Skipping auto-add.
+2025-07-23 12:40:41,159 - INFO - Stock HAVELLS.NS with strategy V20 already exists in alerts. Skipping auto-add.
+2025-07-23 12:40:41,160 - INFO - Stock HAVELLS.NS with strategy 52WLowHigh already exists in alerts. Skipping auto-add.
+2025-07-23 12:40:41,515 - INFO - Stock HCLTECH.NS with strategy SMA already exists in alerts. Skipping auto-add.
+2025-07-23 12:40:42,678 - INFO - Stock HCLTECH.NS with strategy 52WLowHigh already exists in alerts. Skipping auto-add.
+2025-07-23 12:40:45,031 - INFO - Stock HDFCAMC.NS with strategy 52WLowHigh already exists in alerts. Skipping auto-add.
+2025-07-23 12:40:46,865 - INFO - Stock HDFCBANK.NS with strategy 52WLowHigh already exists in alerts. Skipping auto-add.
+2025-07-23 12:40:49,053 - INFO - Stock HDFCLIFE.NS with strategy 52WLowHigh already exists in alerts. Skipping auto-add.
+2025-07-23 12:40:50,524 - INFO - Stock HINDUNILVR.NS with strategy 52WLowHigh already exists in alerts. Skipping auto-add.
+2025-07-23 12:40:52,768 - INFO - Stock ICICIBANK.NS with strategy 52WLowHigh already exists in alerts. Skipping auto-add.
+2025-07-23 12:40:54,197 - INFO - Stock ICICIGI.NS with strategy 52WLowHigh already exists in alerts. Skipping auto-add.
+2025-07-23 12:40:55,704 - INFO - Stock ICICIPRULI.NS with strategy 52WLowHigh already exists in alerts. Skipping auto-add.
+2025-07-23 12:40:57,327 - INFO - Stock INFY.NS with strategy 52WLowHigh already exists in alerts. Skipping auto-add.
+2025-07-23 12:40:57,716 - INFO - Stock ITC.NS with strategy SMA already exists in alerts. Skipping auto-add.
+2025-07-23 12:40:58,720 - INFO - Stock ITC.NS with strategy 52WLowHigh already exists in alerts. Skipping auto-add.
+2025-07-23 12:41:01,469 - INFO - Stock KOTAKBANK.NS with strategy 52WLowHigh already exists in alerts. Skipping auto-add.
+2025-07-23 12:41:02,860 - INFO - Stock LT.NS with strategy 52WLowHigh already exists in alerts. Skipping auto-add.
+2025-07-23 12:41:04,761 - INFO - Stock MARICO.NS with strategy 52WLowHigh already exists in alerts. Skipping auto-add.
+2025-07-23 12:41:06,099 - INFO - Stock MARUTI.NS with strategy 52WLowHigh already exists in alerts. Skipping auto-add.
+2025-07-23 12:41:08,464 - INFO - Stock NAM-INDIA.NS with strategy 52WLowHigh already exists in alerts. Skipping auto-add.
+2025-07-23 12:41:09,931 - INFO - Stock NESTLEIND.NS with strategy 52WLowHigh already exists in alerts. Skipping auto-add.
+2025-07-23 12:41:11,665 - INFO - Stock PAGEIND.NS with strategy 52WLowHigh already exists in alerts. Skipping auto-add.
+2025-07-23 12:41:12,710 - INFO - Stock PFIZER.NS with strategy V20 already exists in alerts. Skipping auto-add.
+2025-07-23 12:41:12,710 - INFO - Stock PFIZER.NS with strategy 52WLowHigh already exists in alerts. Skipping auto-add.
+2025-07-23 12:41:13,047 - INFO - Stock PGHH.NS with strategy SMA already exists in alerts. Skipping auto-add.
+2025-07-23 12:41:13,901 - INFO - Stock PGHH.NS with strategy 52WLowHigh already exists in alerts. Skipping auto-add.
+2025-07-23 12:41:15,171 - INFO - Stock PIDILITIND.NS with strategy 52WLowHigh already exists in alerts. Skipping auto-add.
+2025-07-23 12:41:16,888 - INFO - Stock RELIANCE.NS with strategy 52WLowHigh already exists in alerts. Skipping auto-add.
+2025-07-23 12:41:19,931 - INFO - Stock SANOFI.NS with strategy 52WLowHigh already exists in alerts. Skipping auto-add.
+2025-07-23 12:41:20,244 - INFO - Stock TCS.NS with strategy SMA already exists in alerts. Skipping auto-add.
+2025-07-23 12:41:21,465 - INFO - Stock TCS.NS with strategy 52WLowHigh already exists in alerts. Skipping auto-add.
+2025-07-23 12:41:24,064 - INFO - Stock TITAN.NS with strategy 52WLowHigh already exists in alerts. Skipping auto-add.
+2025-07-23 12:41:25,643 - INFO - Stock VOLTAS.NS with strategy V20 already exists in alerts. Skipping auto-add.
+2025-07-23 12:41:25,646 - INFO - Stock VOLTAS.NS with strategy 52WLowHigh already exists in alerts. Skipping auto-add.
