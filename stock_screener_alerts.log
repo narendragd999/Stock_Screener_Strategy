@@ -1,3 +1,5 @@
 2025-07-22 09:28:13,113 - INFO - Auto-added stock APARINDS.NS to alerts with strategy V20, initial price \u20b99258.00, alert price \u20b96306.50, target price \u20b99312.00
 2025-07-22 09:28:21,006 - ERROR - APARINDS.NS: Period '1y2mo' is invalid, must be of the format 1d, 5d, 1mo, 3mo, 6mo, 1y, 2y, 5y, 10y, ytd, max, etc.
 2025-07-22 09:28:21,008 - WARNING - No historical data for APARINDS.NS
+2025-07-23 07:34:28,293 - ERROR - APARINDS.NS: Period '1y2mo' is invalid, must be of the format 1d, 5d, 1mo, 3mo, 6mo, 1y, 2y, 5y, 10y, ytd, max, etc.
+2025-07-23 07:34:28,294 - WARNING - No historical data for APARINDS.NS
