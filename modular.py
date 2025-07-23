@@ -481,7 +481,7 @@ class FinancialAnalyzer:
 class StockScreener:
     @staticmethod
     @st.cache_data
-    def calculate_sma_and_screen(_db_manager, symbols_df, start_date, end_date, default_cooldown, _analyzer, data_fetcher):
+    def calculate_sma_and_screen(_db_manager, symbols_df, start_date, end_date, default_cooldown, _analyzer, _data_fetcher):
         bullish_stocks = []
         bearish_stocks = []
         v20_stocks = []
@@ -535,7 +535,7 @@ class StockScreener:
                     continue
                 quarterly_data, yearly_data, error = _analyzer.load_from_csv(ticker) if not st.session_state.force_refresh else (None, None, None)
                 if error or quarterly_data is None or yearly_data is None:
-                    quarterly_data, yearly_data, error = data_fetcher.scrape_screener_data(ticker)
+                    quarterly_data, yearly_data, error = _data_fetcher.scrape_screener_data(ticker)
                     if not error:
                         _analyzer.save_to_csv(quarterly_data, yearly_data, ticker)
                         st.session_state.quarterly_data[ticker] = quarterly_data
