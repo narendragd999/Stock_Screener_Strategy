@@ -4765,3 +4765,6 @@
 2025-07-23 09:13:38,945 - INFO - Deleted all stocks from database
 2025-07-23 09:13:39,390 - INFO - Fetched data for ALKEM.NS: Current price \u20b94971.80, V20 range None, 52W Low \u20b94491.65, 52W High \u20b96389.41
 2025-07-23 09:14:07,991 - INFO - Reset alert triggered for all stocks
+2025-07-23 09:36:45,695 - INFO - Auto-added stock ACE.NS to alerts with strategy SMA, initial price \u20b91144.60, alert price \u20b91185.87, target price \u20b91218.74
+2025-07-23 09:36:50,905 - INFO - Auto-added stock ALKEM.NS to alerts with strategy SMA, initial price \u20b94971.80, alert price \u20b94888.02, target price \u20b94975.88
+2025-07-23 09:36:55,300 - INFO - Auto-added stock BLS.NS to alerts with strategy SMA, initial price \u20b9378.65, alert price \u20b9375.99, target price \u20b9383.49
