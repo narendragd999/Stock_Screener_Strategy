@@ -20,6 +20,8 @@ import os
 import pyperclip
 import difflib
 import re
+import nest_asyncio
+nest_asyncio.apply()  # Allow nested event loops in Streamlit
 
 # Configure logging
 logging.basicConfig(
@@ -45,7 +47,7 @@ def initialize_session_state():
 
 # Database operations
 class DatabaseManager:
-    def __init__(self, db_name='stock_alerts.db'):
+    def __init__(self, db_name='stock_alerts_modular.db'):
         self.db_name = db_name
         self.init_db()
 
@@ -622,6 +624,45 @@ class StockScreener:
                 progress_bar.progress(min(processed_stocks / total_stocks, 1.0))
         return pd.DataFrame(bullish_stocks), pd.DataFrame(bearish_stocks), pd.DataFrame(v20_stocks), pd.DataFrame(week_52_stocks)
 
+    @staticmethod
+    def check_v20_strategy(stock_data, stock_type, sma_200):
+        try:
+            momentum_period = None
+            momentum_gain = 0
+            start_date_momentum = None
+            end_date_momentum = None
+            v20_low_price = None
+
+            for i in range(len(stock_data) - 1, -1, -1):
+                current_candle = stock_data.iloc[i]
+                if current_candle['Close'] > current_candle['Open']:  # Green candle
+                    for j in range(i - 1, -1, -1):
+                        prev_candle = stock_data.iloc[j]
+                        gain_percent = ((current_candle['High'] - prev_candle['Low']) / prev_candle['Low']) * 100
+                        if gain_percent >= 20:
+                            # Check if all candles between j and i are green
+                            momentum_broken = False
+                            for k in range(j + 1, i + 1):
+                                if stock_data.iloc[k]['Close'] < stock_data.iloc[k]['Open']:
+                                    momentum_broken = True
+                                    break
+                            if not momentum_broken:
+                                # For v200 stocks, ensure the start is below 200 SMA
+                                if stock_type == 'v200' and prev_candle['Close'] >= stock_data.iloc[j]['SMA_200']:
+                                    continue
+                                momentum_period = i - j
+                                momentum_gain = gain_percent
+                                start_date_momentum = prev_candle.name.strftime('%Y-%m-%d')
+                                end_date_momentum = current_candle.name.strftime('%Y-%m-%d')
+                                v20_low_price = prev_candle['Low']
+                                break
+                    if momentum_period:
+                        break
+            return momentum_period, momentum_gain, start_date_momentum, end_date_momentum, v20_low_price
+        except Exception as e:
+            logging.error(f"Error in check_v20_strategy for {stock_type}: {e}")
+            return None, 0, None, None, None    
+
 # Alert manager module
 class AlertManager:
     def __init__(self, db_manager):
@@ -640,6 +681,10 @@ class AlertManager:
             st.error("Telegram bot not configured")
             return
         try:
+            loop = asyncio.get_event_loop()
+            if loop.is_closed():
+                loop = asyncio.new_event_loop()
+                asyncio.set_event_loop(loop)
             await self.bot.send_message(chat_id=self.chat_id, text=message)
             self.db_manager.add_notification(symbol, strategy, notification_type, price, int(time.time()))
             logging.info(f"Sent Telegram message: {message}")
@@ -664,7 +709,11 @@ class AlertManager:
                     if current_time - last_alert_time >= row['notification_cooldown'] and current_price <= row['alert_price'] + 0.01:
                         strategy = '52WLowHigh' if row['strategy'] == '52WLowHigh' else row['strategy']
                         message = f"🚨 {strategy} Buy Alert: {row['symbol']} hit buy price ₹{row['alert_price']:.2f}! Current: ₹{current_price:.2f}"
-                        asyncio.run(self.send_telegram_message(message, row['symbol'], strategy, "Buy", current_price))
+                        loop = asyncio.get_event_loop()
+                        if loop.is_closed():
+                            loop = asyncio.new_event_loop()
+                            asyncio.set_event_loop(loop)
+                        loop.run_until_complete(self.send_telegram_message(message, row['symbol'], strategy, "Buy", current_price))
                         with sqlite3.connect('stock_alerts.db') as conn:
                             c = conn.cursor()
                             c.execute("UPDATE stocks SET alert_triggered = 1, last_notified_alert = ? WHERE id = ?", (current_time, row['id']))
@@ -675,7 +724,11 @@ class AlertManager:
                     if current_time - last_target_time >= row['notification_cooldown'] and current_price >= row['target_price'] - 0.01:
                         strategy = '52WLowHigh' if row['strategy'] == '52WLowHigh' else row['strategy']
                         message = f"🎯 {strategy} Sell Alert: {row['symbol']} hit target price ₹{row['target_price']:.2f}! Current: ₹{current_price:.2f}"
-                        asyncio.run(self.send_telegram_message(message, row['symbol'], strategy, "Sell", current_price))
+                        loop = asyncio.get_event_loop()
+                        if loop.is_closed():
+                            loop = asyncio.new_event_loop()
+                            asyncio.set_event_loop(loop)
+                        loop.run_until_complete(self.send_telegram_message(message, row['symbol'], strategy, "Sell", current_price))
                         with sqlite3.connect('stock_alerts.db') as conn:
                             c = conn.cursor()
                             c.execute("UPDATE stocks SET last_notified_target = ? WHERE id = ?", (current_time, row['id']))
@@ -810,9 +863,9 @@ def main():
     st.sidebar.checkbox("Override: Treat as Finance Company", key="finance_override")
     st.sidebar.checkbox("Enable Same Quarter Year-over-Year Net Profit Comparison", key="enable_same_quarter")
     st.sidebar.checkbox("Force Refresh Financial Data", key="force_refresh")
-    st.sidebar.subheader("Date Range for SMA Calculation (Minimum 1.5 Years)")
+    st.sidebar.subheader("Date Range for SMA Calculation (Minimum 1 Years)")
     end_date = date.today()
-    start_date = end_date - timedelta(days=548)
+    start_date = end_date - timedelta(days=360)
     start_date = st.sidebar.date_input("Start Date", value=start_date, min_value=end_date - timedelta(days=548), key="start_date")
     end_date = st.sidebar.date_input("End Date", value=end_date, key="end_date")
 
